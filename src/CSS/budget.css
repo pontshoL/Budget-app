@@ -1,0 +1,15 @@
+.balance{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.line{
+    border-left: 1px solid green;
+    height:80px;
+    margin-left: 53px;
+}
