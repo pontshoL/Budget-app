@@ -27,7 +27,7 @@ function App() { //it renders everything on the browser
   })
   return (
     
-    <Router>
+    <Router basename='Budget-app'>
       <Switch>
         <Route exact path="/" component={Login}></Route>
         <Route path="/sign-up" component={SignUp}></Route>
